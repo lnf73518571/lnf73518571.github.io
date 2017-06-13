@@ -28,5 +28,6 @@ public class MyView extends View {
         int width=getWidth();
         int height=getHeight();
         canvas.drawCircle(width/2,height/2,100,paint);
+        canvas.drawRect(width,height,100,100,paint);
     }
 }
