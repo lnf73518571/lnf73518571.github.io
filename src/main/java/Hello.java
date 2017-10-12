@@ -17,4 +17,9 @@ public class Hello {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public Hello(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
 }
